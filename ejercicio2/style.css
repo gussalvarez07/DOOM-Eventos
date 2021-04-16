@@ -1,0 +1,25 @@
+.container {
+    background-color: orange;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 50px;
+  }
+  .btn1 {
+    background-color: thistle;
+  }
+  .btn2 {
+    background-color: rgb(34, 167, 160);
+  }
+  .btn3 {
+    background-color: rgb(91, 153, 19);
+  }
+  .btn4 {
+    background-color: rgb(63, 11, 63);
+  }
+  .btn5 {
+    background-color: rgb(163, 46, 17);
+  }
+  .btn6 {
+    background-color: rgb(65, 15, 202);
+  }

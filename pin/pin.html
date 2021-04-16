@@ -1,0 +1,41 @@
+  <!-- pin 
+En un documento html crear botones con números del 0 al 9, un botón para reiniciar, un botón para borrar, y 
+un elemento de texto.
+Cuando se presionan los botones de números, se tienen que ir agregando los números en el elemento de texto. 
+Por ejemplo, si se presiona el 1 y después el 3, se tiene que mostrar "13".
+El máximo de dígitos que se pueden ingresar es 6, cuando ya hay 6 dígitos ingresados y se clickea un nuevo 
+número, no debe pasar nada.
+El botón de reiniciar debe borrar todos los dígitos del elemento de texto.
+El botón de borrar debe borrar el último dígito del elemento de texto. Por ejemplo, si el pin ingresado es 
+2544 y se presiona la tecla borrar, debe quedar en 254.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ingrese su PIN</h2>
+    <button class="boton0">0</button>
+    <button class="boton1">1</button>
+    <button class="boton2">2</button>
+    <button class="boton3">3</button>
+    <button class="boton4">4</button>
+    <button class="boton5">5</button>
+    <button class="boton6">6</button>
+    <button class="boton7">7</button>
+    <button class="boton8">8</button>
+    <button class="boton9">9</button>
+    <button class="botonBorrar"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+    <button class="botonReinicio"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+    <p class="parrafo"></p>
+
+    <script src="./pin.js">
+    </script>
+    
+</body>
+</html>

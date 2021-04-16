@@ -1,0 +1,26 @@
+/*etiqueta, clse(.), id(#)*/
+
+.fondorosa{
+    background-color: pink;
+   
+}
+
+.textoMorado{
+    color: purple;
+  
+}
+
+.tamaño{
+    width: 300px;
+    height: 200px;
+}
+.tamano{
+    width: 50px;
+    height: 50px;
+}
+
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
